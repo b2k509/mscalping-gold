@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: mscalping-gold-bot
+    env: python
+    buildCommand: "pip install flask requests"
+    startCommand: "python main.py"
